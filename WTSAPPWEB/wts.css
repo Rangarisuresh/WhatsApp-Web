@@ -1,0 +1,212 @@
+
+body{
+    background-color: #3b4a54;
+}
+#whatsAppLogo{
+                position : relative;
+                height : 40px;
+                width : 40px;
+                left : 30px;
+                top : 10px;
+                cursor : pointer;
+}
+#WTTEXT{
+    font-size:20px;
+    position : relative;
+    height : 40px;
+    width : 40px;
+    left : 76px;
+    top : -40px;
+    color :rgba(83, 244, 83, 0.682);
+    cursor: pointer;
+    
+}
+
+/* Apply hover effect when class is added via JavaScript */
+.hover-effect {
+    animation: hoverEffect 4s ease-in-out forwards;
+}
+
+
+#download {
+    font-size: 18px;
+    height: 40px; /* Button height */
+    width: 180px; 
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    background-color: rgba(83, 244, 83, 0.682);
+    border-radius: 35px;
+    padding: 16px 45px;
+    position: relative;
+    left: 1300px;
+    top: -96px;
+    cursor: pointer;
+}
+
+/* Apply animation on hover with a 5-second delay */
+#download:hover {
+    animation: hoverEffect 4s ease-in-out forwards;
+    /* animation-delay: 1s;  */
+}
+
+/* Keyframes for delayed hover effect */
+@keyframes hoverEffect {
+    0% {
+        background-color: rgba(83, 244, 83, 0.682); /* Initial green */
+        color: black;
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 0.932); /* Midpoint dark black */
+        color: white;
+    }
+    100% {
+        background-color: black; /* Final solid black */
+        color: white;
+    }
+}
+
+
+
+#DownICON{
+    text-align:center;
+    font-size:18px;
+    position : relative;
+    left : 1260px;
+    top: -92px;
+    cursor:pointer;
+}
+button:hover{
+    background-color : black;
+}
+
+.secondHeader{
+    background-color: white;
+    border : 1px solid black;
+    border-radius : 19px;
+    position:relative;
+    left : 250px;
+    top: -50px;
+    height : 480px;
+    width : 1000px;
+    cursor:pointer;
+}
+
+#Loginto,#paragraph{
+    position:relative;
+    left : 60px;
+    top : 20px;
+}
+#list1,#list2,#list3,#list4{
+    font-weight:10px;
+    font-size:20px;
+    position:relative;
+    left : 60px;
+    top : 20px;
+
+}
+
+#morevert{
+    font-size: 21px;
+    position:relative;
+    left: 140px;
+    top: 1px;
+}
+
+#setting{
+    font-size: 21px;
+    position: relative;
+    left:340px;
+    top: 1px;
+}
+
+#Loginto{
+    font-size: 34px;
+}
+
+#para{
+    font-size: 20px;
+    position: relative;
+    left: 66px;
+}
+
+.list{
+    position: relative;
+    left: -16px;
+}
+
+#underline1{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    cursor: pointer;
+}
+
+#arrow1{
+    font-size: 17px;
+    position: relative;
+    left: 242px;
+    top: -20px;
+    cursor: pointer;
+
+}
+#underline2{
+    font-size: 17px;
+    position: relative;
+    left:60px;
+    top: -10px;
+    cursor: pointer;
+}
+
+#arrow2{
+    font-size: 23px;
+    position: relative;
+    left: 240px;
+    top: -63px;
+    cursor: pointer;
+
+}
+
+#underline1 {
+    text-decoration-line: underline;
+    text-decoration-color: rgba(83, 244, 83, 0.682);
+    cursor: pointer;
+}
+#underline2 {
+    text-decoration-line: underline;
+    text-decoration-color: rgba(83, 244, 83, 0.682);
+    cursor: pointer;
+}
+
+#qrcode{
+    position: absolute; /* Positions the element absolutely */
+    top: 210px; 
+    left: 930px; 
+    width: 150px;
+    height: 150px; 
+    cursor: pointer;
+}
+
+.checkbox{
+    position: absolute;
+    left: 930px;
+    top: 480px;
+    cursor: pointer;
+
+}
+.secure{
+    margin-left: 600px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+#secure{
+    margin-left: 30px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+#secureIcon{
+    font-size: 18px;
+    margin-left: 10px;
+}

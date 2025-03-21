@@ -1,0 +1,85 @@
+<html>
+<head>
+<link rel="stylesheet" href="wts.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+<title> WhatsApp</title>
+</head>
+<body>
+<div class="firstHeader">
+<img src="Logo.png" alt="whatsAppLogo" id="whatsAppLogo">
+<h3 ID="WTTEXT">WhatsApp</h3>
+<a href="https://www.whatsapp.com/download" id="download">Download</a>
+<span class="material-symbols-outlined" id="DownICON">
+download_2
+</span>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      let downloadBtn = document.getElementById("download");
+      let downIcon = document.getElementById("DownICON");
+
+      function applyHoverEffect() {
+          downloadBtn.classList.add("hover-effect");
+          downIcon.classList.add("hover-effect");
+      }
+
+      function removeHoverEffect() {
+          downloadBtn.classList.remove("hover-effect");
+          downIcon.classList.remove("hover-effect");
+      }
+
+      // Apply hover effect when hovering over either button
+      downloadBtn.addEventListener("mouseenter", applyHoverEffect);
+      downIcon.addEventListener("mouseenter", applyHoverEffect);
+
+      // Remove hover effect when mouse leaves both buttons
+      downloadBtn.addEventListener("mouseleave", removeHoverEffect);
+      downIcon.addEventListener("mouseleave", removeHoverEffect);
+  });
+</script>
+
+
+<div class="secondHeader">
+<p id="Loginto">Log into WhatsApp Web</p>
+<p id="para">Message privately with friends and family using whatsApp on your<br>browser.</p>
+<div class="list">
+<ol>
+<li id="list1">Open WhatsApp on your phone</li><br>
+<li id="list2">Tap Menu &nbsp &nbsp on Andrioid, or Settings  &nbsp &nbsp &nbsp On Iphone</li>
+<span class="material-symbols-outlined" id="morevert">
+more_vert
+</span>
+<span class="material-symbols-outlined" id="setting">
+settings
+</span>
+<li id="list3">Tap Linked devices and then Link a device</li><br>
+<li id="list4">Point your phone at this screen to scan the QR code</li><br>
+</ol>
+</div>
+<p><u id="underline1">Need help getting started?</u></p><br>
+<span class="material-symbols-outlined" id="arrow1">
+arrow_outward
+</span>
+<p><u id="underline2">Log in with phone number</u></p><br>
+<span class="material-symbols-outlined" id="arrow2">
+chevron_right
+</span>
+</div>
+
+<div id="qrcode"></div>
+
+<script src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"></script>
+<script src="wts.js"></script>
+
+
+<div class="checkbox">
+    <input type="checkbox" id="checkbox"> Stay logged in on this browser
+</div>
+<div class="secure">
+<span class="material-symbols-outlined" id="secureIcon">
+lock
+</span>
+<p id="secure"> Your personal messages are end-to-end encrypted</p>
+</div>
+</body>
+</html>
